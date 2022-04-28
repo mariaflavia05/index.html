@@ -16,11 +16,11 @@ body {font-size:16px;}
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
     <h3 class="w3-padding-64"><b>Abre às 08:00 <br>Fecha às 18:00</b></h3>
-    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <hr style="width:50px;border:5px solid black" class="w3-round">
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Pagina Inicial</a> 
@@ -46,7 +46,7 @@ body {font-size:16px;}
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <h1 class="w3-jumbo"><b>D de Doce</b></h1>
     <h1 class="w3-xxxlarge w3-text-red"><b>Cardápio</b></h1>
-    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <hr style="width:50px;border:5px solid black" class="w3-round">
   </div>
   
   <!-- Photo grid (modal) -->
@@ -64,6 +64,51 @@ body {font-size:16px;}
     </div>
   </div>
 
+  <table id="grad" class="table">
+    <bordercolor='white'>
+
+        <thead>
+
+            <tr>
+                <tr:hover {background-color:blue;}>
+                    <th>Produtos</th>
+                    <th>Preços</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>Brownie</td>
+                <td>R$7,00</td>
+            </tr>
+            <tr>
+                <td>Cone recheados</td>
+                <td>R$8,00</td>
+            </tr>
+            <tr>
+                <td>Bolo de pote</td>
+                <td>R$10,00</td>
+            </tr>
+            <tr>
+                <td>Brigadeiro</td>
+                <td>R$2,00</td>
+            </tr>
+            <tr>
+                <td>Bombom de morango </td>
+                <td>R$5,00</td>
+            </tr>
+            
+               
+            <tr>
+                <td>Palha Italiana</td>
+                <td>R$3,00</td>
+            </tr>
+      
+            </tbody>
+        </bordercolor>
+
+</table>
+  
+  
+
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
     <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
@@ -76,7 +121,7 @@ body {font-size:16px;}
   <!-- Services -->
   <div class="w3-container" id="services" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Sobre a loja</b></h1>
-    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <hr style="width:50px;border:5px solid black" class="w3-round">
     <p>A melhor loja de doce da cidade!</p>
     <p>Criamos nossa loja em 2020, no início da pandemia, tivemos nossas inseguranças mas graças a vocês conseguimos realizar o nosso sonho de termos uma loja de doce. Esse sonho é antigo, ele surgiu em 2015 mas sempre faltava 
         algum incentivo mas em meio a tudo o que estava acontecendo em 2020, todo o caos da pandemia, pensamos "Porque nâo deixar a vida mais doce? e foi assim que a nossa loja surgiu."
@@ -84,13 +129,12 @@ body {font-size:16px;}
   </div>
   
   
-  
 
   
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Contato</b></h1>
-    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <hr style="width:50px;border:5px solid black" class="w3-round">
     <p>Cadastre-se no nosso site para receber promoções diretamente pelo e-mail. Deixe uma mensagem sobre o que você acha do nosso trabalho! :)</p>
     <form action="/action_page.php" target="_blank">
       <div class="w3-section">
@@ -138,5 +182,3 @@ function onClick(element) {
 
 </body>
 </html>
-
-
